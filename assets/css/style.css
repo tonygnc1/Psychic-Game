@@ -1,0 +1,23 @@
+h3 {
+    font-size: 50px;
+}
+
+#wins {
+    font-size: 24px;
+    color: blue;
+}
+
+#losses {
+    font-size: 24px;
+    color: red;
+}
+
+#guessesLeft {
+    font-size: 24px;
+    color: blueviolet;
+}
+
+#soFar {
+    font-size: 24px;
+    color: black;
+}
