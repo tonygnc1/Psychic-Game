@@ -1,4 +1,4 @@
-<script type="javascript">
+{/* <script type="javascript"> */}
 
 var wins = 0;
 var losses = 0;
@@ -22,8 +22,9 @@ if (userGuess === computerGuess) {
 
     if (guessesLeft <= 0) {
         document.getElementById("losses").textContent = losses++;
+        document.getElementById("guessesLeft").textContent = guessesLeft--;
     }   
 }
 
 
-</script>
+// </script>
